@@ -12,11 +12,13 @@ Quick Rundown
 
 Eight input files are provided to the program; each input file is formatted in the following manner:
 
+```
    <integer:total_values_to_follow>
    <float:value1>
    <float:value2>
    <...>
    <float:valueN>
+```
 
 So that an input file may look like:
 

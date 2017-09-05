@@ -130,7 +130,7 @@ void OpenDataFiles()
                 // the input filename
                 filename = (char *)malloc(strlen(SideToString[thisSide]) +
                            strlen(HalfToString[thisHalf]) +
-                           strlen(DimensionToString[thisDimension]));
+                           strlen(DimensionToString[thisDimension]) + 1);
                 // Populate that variable with a dynamically-generated
                 // input filename
                 strcpy(filename, SideToString[thisSide]);

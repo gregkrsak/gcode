@@ -26,6 +26,9 @@
 //
 // Revision History:
 //
+// v0.9.4, 9/4/2017
+//     - [3ebee92] Fixed GitHub issue #2 (Valgrind Errors) related to
+//       'filename' scratch variable.
 // v0.9.3, 2/1/2012
 //     - Moved project to GitHub / git
 //     - Updated copyright and copyright holder's contact information
